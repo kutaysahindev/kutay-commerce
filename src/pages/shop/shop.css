@@ -1,0 +1,65 @@
+.shop {
+  font-size: 1.3rem;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.shopTitle {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.products {
+  width: 90vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  place-items: center;
+  gap: 1.5rem;
+}
+
+.product {
+  border-radius: 0.5rem;
+  padding: 10rem;
+  width: 20rem;
+  height: 30rem;
+  margin: 5rem 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  max-width: 25rem;
+}
+
+.product .description {
+  text-align: center;
+  margin: 2rem;
+  width: max-content;
+}
+
+.description p {
+  margin-bottom: 1rem;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBtn {
+  border-radius: 1.5rem;
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 6rem;
+  padding: 0.5rem 1rem;
+}
+
+.addToCartBtn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
