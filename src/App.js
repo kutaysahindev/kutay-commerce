@@ -4,6 +4,7 @@ import { Navbar } from "./components/navbar";
 import { Shop } from "./pages/shop/shop";
 import { Cart } from "./pages/cart/cart";
 import { ShopContextProvider } from "./context/shop-context";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </Routes>
         </Router>
       </ShopContextProvider>
+      <Footer />
     </div>
   );
 }

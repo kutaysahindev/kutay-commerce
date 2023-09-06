@@ -5,8 +5,12 @@
   height: 6rem;
   background-color: rgb(19, 19, 19);
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  z-index: 5;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 25px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .links {
@@ -20,4 +24,26 @@
   color: white;
   margin-left: 2rem;
   font-size: 2rem;
+  transition: all 0.2s;
+}
+
+.links a:hover {
+  color: #a48111;
+}
+
+.logoContainer {
+  width: 10rem;
+  z-index: 6;
+}
+
+.logoImg {
+  width: 10rem;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+  cursor: pointer;
 }

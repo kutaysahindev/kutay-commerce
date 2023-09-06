@@ -1,0 +1,23 @@
+/* footer.css */
+
+.footerContainer {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footerLink {
+  color: #007bff; /* You can change the link color as desired */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
