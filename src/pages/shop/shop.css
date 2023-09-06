@@ -143,13 +143,13 @@
 }
 .hero__cnt h1 {
   margin: 0;
-  transform: translateX(-9rem);
+  transform: translateX(-7.5vw);
 }
 
 .hero__cnt--p {
   text-transform: capitalize;
   font-size: 2rem;
-  transform: translateX(-12rem);
+  transform: translateX(-7.5vw);
 }
 
 @keyframes fade-in {
