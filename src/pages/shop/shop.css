@@ -56,9 +56,9 @@
   border-radius: 1.5rem;
   background-color: transparent;
   border: 2px solid rgb(19, 19, 19);
-  min-width: 8rem; /* Increased button width for better appearance */
-  padding: 1rem 2rem; /* Increased padding for better button size */
-  text-align: center; /* Center-align button text */
+  min-width: 8rem;
+  padding: 1rem 2rem;
+  text-align: center;
   font-size: 1.6rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -138,9 +138,7 @@
   opacity: 0;
   animation: fade-in 0.75s 1.5s linear forwards;
 }
-.hero__cnt svg path {
-  fill: #fff;
-}
+
 .hero__cnt h1 {
   margin: 0;
   transform: translateX(-7.5vw);

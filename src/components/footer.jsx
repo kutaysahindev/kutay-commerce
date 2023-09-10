@@ -9,6 +9,8 @@ export const Footer = () => {
         <a
           href="https://www.linkedin.com/in/kutaysahin/"
           className="footerLink"
+          target="_blank"
+          rel="noreferrer"
         >
           Kutay Şahin
         </a>{" "}
